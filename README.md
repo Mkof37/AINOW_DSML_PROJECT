@@ -60,3 +60,12 @@ From the visualizations, several critical insights were extracted:
 * **Class Imbalance Challenge**: The models showed high precision for predicting non-claims (Class 0) but struggled with lower recall for actual claims (Class 1). This indicates that while the models are accurate overall, they find it difficult to correctly identify the minority of cases where a claim actually occurs.
 
 * **Feature Sensitivity:** Features like Settlement, Building_Fenced, and Garden had very low importance (all < 1%), suggesting they have minimal impact on the prediction compared to building size and location.
+
+* ** Model Comparison**
+•	Gradient Boosting achieved the highest AUC-ROC (0.696), making it the best model for ranking buildings by their probability of having a claim.
+
+•	Random Forest showed that Building Dimension and Geo_Code are the most influential variables in predicting a claim event.
+
+**Final Recommendation**
+The Gradient Boosting model is recommended for its superior ability to distinguish between claim and no-claim risks (AUC). However, the insurance company should use the probability outputs rather than hard classifications to set different premium tiers based on the risk scores.
+
