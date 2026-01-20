@@ -3,6 +3,7 @@
 This project has been structured as a comprehensive data science pipeline, moving from raw data cleaning to advanced model evaluation. Here is the step-by-step implementation and the insights derived.
 
 **Step-by-Step Implementation**
+
 **1. Library and Data Loading:**
 
 * Essential libraries for data manipulation (pandas, numpy), visualization (seaborn, matplotlib), and machine learning (sklearn, xgboost) were imported.
